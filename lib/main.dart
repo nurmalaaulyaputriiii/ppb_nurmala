@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tugasnurmala/tugslistitem.dart';
+import 'package:flutter_tugasnurmala/tugas_spaced_longlist.dart';
+
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: "aplikasi flutter",
+      title: 'Aplikasi Profil',
       debugShowCheckedModeBanner: false,
-      home:tugslistitem()
+      home: TugasM5(),
     );
   }
 }
