@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tugasnurmala/tugas_spaced_longlist.dart';
+import 'package:flutter_tugasnurmala/home_page.dart';
+
 
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Aplikasi Profil',
       debugShowCheckedModeBanner: false,
-      home: TugasM5(),
+      home: HomePagee()
     );
   }
 }
